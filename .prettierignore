@@ -1,0 +1,14 @@
+.next
+node_modules
+out
+build
+.next
+*.md
+*.json
+*.lock
+*.html
+*.css
+*.scss
+*.yaml
+*.yml
+*.svg
