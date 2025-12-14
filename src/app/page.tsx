@@ -71,7 +71,7 @@ export default function Home() {
           </h2>
           <p className="text-white font-bold mb-8 text-center">{t("training.subtitleText")}</p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 items-center">
             <div>
               <h3 className="font-bold text-2xl mb-4 uppercase text-red-900">
                 {t("training.learn.title")}:
@@ -83,6 +83,15 @@ export default function Home() {
                 <li>{t("training.learn.item4")}</li>
                 <li>{t("training.learn.item5")}</li>
               </ul>
+            </div>
+
+            <div className="flex justify-center">
+              <Link
+                href="/contact"
+                className="inline-block bg-white text-black px-10 py-3 rounded-md text-lg font-bold hover:bg-zinc-200 transition-colors"
+              >
+                {t("training.enroll")}
+              </Link>
             </div>
 
             <div>
@@ -97,15 +106,6 @@ export default function Home() {
                 <li>{t("training.details.item5")}</li>
               </ul>
             </div>
-          </div>
-
-          <div className="mt-10 flex justify-center">
-            <Link
-              href="/contact"
-              className="inline-block bg-white text-black px-10 py-3 rounded-md text-lg font-bold hover:bg-zinc-200 transition-colors"
-            >
-              {t("training.enroll")}
-            </Link>
           </div>
         </div>
       </section>

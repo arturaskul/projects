@@ -49,7 +49,16 @@ export type TranslationKey =
   | "days.friday"
   | "days.saturday"
   | "hours.closed"
-  | "footer.rights";
+  | "footer.rights"
+  | "contact.form.title"
+  | "contact.form.name"
+  | "contact.form.namePlaceholder"
+  | "contact.form.email"
+  | "contact.form.emailPlaceholder"
+  | "contact.form.phone"
+  | "contact.form.phonePlaceholder"
+  | "contact.form.submit"
+  | "contact.form.success";
 
 const translations: Record<Language, Record<TranslationKey, string>> = {
   lt: {
@@ -106,6 +115,15 @@ const translations: Record<Language, Record<TranslationKey, string>> = {
     "days.saturday": "Šeštadienis",
     "hours.closed": "Nedirbame",
     "footer.rights": "Visos teisės saugomos.",
+    "contact.form.title": "Susisiekite su mumis",
+    "contact.form.name": "Vardas",
+    "contact.form.namePlaceholder": "Įveskite savo vardą",
+    "contact.form.email": "El. paštas",
+    "contact.form.emailPlaceholder": "Įveskite savo el. paštą",
+    "contact.form.phone": "Telefonas",
+    "contact.form.phonePlaceholder": "Įveskite savo telefono numerį",
+    "contact.form.submit": "Siųsti",
+    "contact.form.success": "Ačiū! Jūsų žinutė išsiųsta.",
   },
   en: {
     "nav.gallery": "Gallery",
@@ -161,6 +179,15 @@ const translations: Record<Language, Record<TranslationKey, string>> = {
     "days.saturday": "Saturday",
     "hours.closed": "Closed",
     "footer.rights": "All rights reserved.",
+    "contact.form.title": "Contact Us",
+    "contact.form.name": "Name",
+    "contact.form.namePlaceholder": "Enter your name",
+    "contact.form.email": "Email",
+    "contact.form.emailPlaceholder": "Enter your email",
+    "contact.form.phone": "Phone",
+    "contact.form.phonePlaceholder": "Enter your phone number",
+    "contact.form.submit": "Send",
+    "contact.form.success": "Thank you! Your message has been sent.",
   },
 };
 
